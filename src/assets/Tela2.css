@@ -1,0 +1,54 @@
+.FlashCards {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: 100%;
+    background: #FB6B6B;
+    font-family: 'Recursive', sans-serif;
+    /* font-family: 'Righteous', cursive; */
+    position: relative;
+}
+
+.FlashCards header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlashCards img {
+    width: 52px;
+    height: 60px;
+}
+
+.FlashCards h1 {
+    width: 203.17px;
+    height: 44px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.FlashCards footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+height: 70px;
+background: #FFFFFF;
+box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+
+bottom: 0;
+left: 0;
+position: absolute;
+}
+
+.FlashCards main {
+    margin-bottom: 100px;
+}
